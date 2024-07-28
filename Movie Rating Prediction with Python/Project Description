@@ -1,1 +1,51 @@
+Project Description: Movies Rating Prediction Using Python
 
+This project aims to predict movie ratings based on various features using machine learning techniques in Python. The dataset used for this project consists of movies data from IMDb India.
+
+Objective:
+To develop a predictive model that can accurately estimate the ratings of movies based on features such as genre, duration, and release year.
+
+Dataset:
+The dataset used is 'IMDb Movies India.csv', which includes information about movies such as:
+
+Name
+Genre
+Year
+Duration
+Rating
+Number of Votes
+Steps Involved:
+
+Data Loading and Preprocessing:
+
+Import necessary libraries: numpy, pandas, matplotlib, seaborn.
+Load the dataset using pandas.
+Explore the dataset to understand its structure and content.
+Clean the data by handling missing values and duplicates.
+Feature engineering:
+Extract relevant features and drop irrelevant ones.
+Convert categorical data into numerical data using Label Encoding.
+Normalize numerical features using MinMaxScaler and StandardScaler.
+Handle and split the genre column to separate different genres into individual columns.
+Exploratory Data Analysis (EDA):
+
+Visualize data distributions using pie charts and histograms for both categorical and numerical features.
+Analyze unique values and handle outliers in numerical columns.
+Feature Selection and Splitting:
+
+Identify target variable (Rating) and feature variables.
+Split the dataset into training and testing sets using train_test_split from sklearn.
+Model Training and Evaluation:
+
+Train multiple regression models including:
+Linear Regression
+Decision Tree Regressor
+Random Forest Regressor
+Support Vector Regressor
+Evaluate models using Mean Squared Error (MSE) and R-squared score (R²).
+Model Comparison:
+
+Compare the performance of different models based on MSE and R² scores.
+Visualize the comparison using bar charts for better understanding.
+Results:
+The project concludes with the comparison of model performances, highlighting which model performs the best for predicting movie ratings. The evaluation metrics used are MSE and R-squared score, providing insights into the accuracy and reliability of each model.
