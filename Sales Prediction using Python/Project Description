@@ -1,1 +1,28 @@
+This project aims to predict sales based on advertising budgets using a Linear Regression model. The dataset contains data on the sales of a product in different markets along with the advertising budget spent on TV, Radio, and Newspaper. The goal is to build a predictive model that can forecast sales given the advertising spend in these three channels.This project aims to predict sales based on advertising budgets using a Linear Regression model. The dataset contains data on the sales of a product in different markets along with the advertising budget spent on TV, Radio, and Newspaper. The goal is to build a predictive model that can forecast sales given the advertising spend in these three channels.
+Dataset
+The dataset used in this project contains the following columns:
 
+TV: Advertising budget spent on TV (in thousands of dollars).
+Radio: Advertising budget spent on Radio (in thousands of dollars).
+Newspaper: Advertising budget spent on Newspaper (in thousands of dollars).
+Sales: Sales of the product (in thousands of units).
+Project Structure
+Data Exploration and Visualization:
+
+Analyze the relationship between different advertising channels and sales.
+Visualize the data using pair plots and heatmaps to understand correlations.
+Data Preprocessing:
+
+Handle any missing values in the dataset.
+Scale the features to ensure uniformity.
+Model Development:
+
+Split the data into training and testing sets.
+Train a Linear Regression model to predict sales based on advertising budgets.
+Model Evaluation:
+
+Evaluate the model using Mean Squared Error (MSE) and R-squared (R²) metrics.
+Compare the performance on training and testing datasets.
+Prediction:
+
+Use the trained model to predict sales for new advertising budgets.
