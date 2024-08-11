@@ -15,6 +15,6 @@ Jupyter Notebook: Interactive development environment.
 Key Contributions
 Data Preprocessing: Cleaned and preprocessed the credit card transaction dataset, including handling missing values, encoding categorical variables, and scaling features.
 Feature Engineering: Extracted relevant features and created new ones to improve model performance.
-Model Development: Implemented various machine learning algorithms, including Logistic Regression, Random Forest, and XGBoost, to classify transactions as fraudulent or legitimate.
+Model Development: Implemented various Logistic Regression machine learning algorithm to classify transactions as fraudulent or legitimate.
 Evaluation: Evaluated model performance using metrics such as accuracy, precision, recall, F1 score, and ROC-AUC. Used cross-validation to ensure robustness and prevent overfitting.
 Visualization: Created visualizations to explore data patterns, feature importance, and model performance.
